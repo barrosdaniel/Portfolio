@@ -1,0 +1,30 @@
+.header {
+  color: var(--color-white);
+  padding: 12rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  // Temp
+  border: 1px solid white;
+
+  &__image-box {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  }
+
+  &__image {
+    display: block;
+    width: 100%;
+    transform: scale(1.2);
+  }
+
+  &__heading {}
+
+  &__subheading {
+    color: var(--color-gray-light-1);
+  }
+}
