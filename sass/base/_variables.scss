@@ -1,14 +1,14 @@
 :root {
   // Colours
   --color-black: #101010;
-  --color-white: #efefef;
+  --color-white: #f9f9f9;
 
   --color-gray-dark-2: #222;
   --color-gray-dark-1: #444;
   --color-gray: #787878;
   --color-gray-light-1: #aaa;
   --color-gray-light-2: #ccc;
-  --color-gray-light-3: #d5d5d5;
+  --color-gray-light-3: #e1e1e1;
 
   --color-primary-dark-2: #0b1322;
   --color-primary-dark-1: #182848;
@@ -21,7 +21,8 @@
   --color-secondary-light: #61cba7;
 
   // Shadows
-  --box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  --box-shadow-large: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  --box-shadow-small: 5px 5px 10px rgba(0, 0, 0, 0.5);
   --text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 
   // Border radius

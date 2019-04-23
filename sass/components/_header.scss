@@ -10,7 +10,8 @@
     height: 20%;
     border-radius: 50%;
     overflow: hidden;
-    box-shadow: var(--box-shadow);
+    box-shadow: var(--box-shadow-large);
+    margin-bottom: 2rem;
   }
 
   &__image {
@@ -24,7 +25,7 @@
   }
 
   &__subheading {
-    color: var(--color-gray-light-1);
+    color: var(--color-gray-light-2);
     text-shadow: var(--text-shadow);
   }
 }

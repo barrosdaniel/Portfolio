@@ -1,12 +1,12 @@
 :root {
   --color-black: #101010;
-  --color-white: #efefef;
+  --color-white: #f9f9f9;
   --color-gray-dark-2: #222;
   --color-gray-dark-1: #444;
   --color-gray: #787878;
   --color-gray-light-1: #aaa;
   --color-gray-light-2: #ccc;
-  --color-gray-light-3: #d5d5d5;
+  --color-gray-light-3: #e1e1e1;
   --color-primary-dark-2: #0b1322;
   --color-primary-dark-1: #182848;
   --color-primary: #253d6e;
@@ -15,7 +15,8 @@
   --color-secondary-dark: #319573;
   --color-secondary: #3ebb91;
   --color-secondary-light: #61cba7;
-  --box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  --box-shadow-large: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  --box-shadow-small: 5px 5px 10px rgba(0, 0, 0, 0.5);
   --text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   --border-radius: 5px; }
 
@@ -50,7 +51,7 @@ main {
   background-color: var(--color-white);
   color: var(--color-gray-dark-1);
   border-radius: var(--border-radius);
-  box-shadow: var(--box-shadow);
+  box-shadow: var(--box-shadow-large);
   margin-bottom: 10rem; }
 
 ul,
@@ -72,7 +73,8 @@ a {
     height: 20%;
     border-radius: 50%;
     overflow: hidden;
-    box-shadow: var(--box-shadow); }
+    box-shadow: var(--box-shadow-large);
+    margin-bottom: 2rem; }
   .header__image {
     display: block;
     width: 100%;
@@ -80,7 +82,7 @@ a {
   .header__heading {
     text-shadow: var(--text-shadow); }
   .header__subheading {
-    color: var(--color-gray-light-1);
+    color: var(--color-gray-light-2);
     text-shadow: var(--text-shadow); }
 
 .nav {
@@ -130,12 +132,19 @@ a {
   padding-bottom: 4rem; }
 
 .button--cta {
-  transition: 0.3s; }
+  transition: 0.2s; }
   .button--cta:link, .button--cta:visited {
     padding: 2rem 4rem;
     border: 1px solid var(--color-gray-light-1);
     font-size: 2.2rem;
-    border-radius: var(--border-radius); }
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow-small); }
   .button--cta:hover, .button--cta:active {
     color: var(--color-white);
     background-color: var(--color-gray-light-1); }
+  .button--cta:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--box-shadow-large); }
+  .button--cta:active {
+    transform: translateY(-2px);
+    box-shadow: var(--box-shadow-small); }
