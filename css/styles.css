@@ -132,19 +132,17 @@ a {
   padding-bottom: 4rem; }
 
 .button--cta {
-  transition: 0.2s; }
+  transition: 0.2s;
+  background: var(--color-primary-light-2);
+  color: var(--color-white); }
   .button--cta:link, .button--cta:visited {
     padding: 2rem 4rem;
-    border: 1px solid var(--color-gray-light-1);
     font-size: 2.2rem;
     border-radius: var(--border-radius);
-    box-shadow: var(--box-shadow-small); }
+    box-shadow: var(--box-shadow-large); }
   .button--cta:hover, .button--cta:active {
     color: var(--color-white);
     background-color: var(--color-gray-light-1); }
-  .button--cta:hover {
-    transform: translateY(-5px);
-    box-shadow: var(--box-shadow-large); }
   .button--cta:active {
-    transform: translateY(-2px);
+    transform: translateY(2px);
     box-shadow: var(--box-shadow-small); }
