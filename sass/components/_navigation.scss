@@ -1,14 +1,18 @@
 .nav {
+  background-color: var(--color-gray-light-3);
+  color: inherit;
   font-size: 2.2rem;
   height: 7rem;
   width: 100%;
-  transition: 0.3s;
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
+  box-shadow: 0 4px 12px 0px rgba(0, 0, 0, 0.2);
 
   display: flex;
   justify-content: center;
   align-items: center;
 
-  &:hover {
+  &:hover &__list {
     transform: scale(1.05);
   }
 
@@ -17,6 +21,7 @@
     display: flex;
     justify-content: space-around;
     padding: 0;
+    transition: 0.3s;
   }
 
   &__list-item {}

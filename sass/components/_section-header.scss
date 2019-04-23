@@ -1,0 +1,13 @@
+.section-header {
+  font-size: 4.5rem;
+
+  &::after {
+    content: "";
+    display: block;
+    height: 0.2rem;
+    width: 15rem;
+    background: linear-gradient(to right, var(--color-primary-dark-2),
+      var(--color-primary-light-2));
+    margin: 4rem auto 6rem auto;
+  }
+}
