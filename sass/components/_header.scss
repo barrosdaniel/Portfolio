@@ -19,9 +19,12 @@
     transform: scale(1.4);
   }
 
-  &__heading {}
+  &__heading {
+    text-shadow: var(--text-shadow);
+  }
 
   &__subheading {
     color: var(--color-gray-light-1);
+    text-shadow: var(--text-shadow);
   }
 }

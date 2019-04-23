@@ -8,6 +8,7 @@
   --color-gray: #787878;
   --color-gray-light-1: #aaa;
   --color-gray-light-2: #ccc;
+  --color-gray-light-3: #d5d5d5;
 
   --color-primary-dark-2: #0b1322;
   --color-primary-dark-1: #182848;
@@ -19,6 +20,10 @@
   --color-secondary: #3ebb91;
   --color-secondary-light: #61cba7;
 
-  // Box shadows
+  // Shadows
   --box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  --text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+
+  // Border radius
+  --border-radius: 5px;
 }
