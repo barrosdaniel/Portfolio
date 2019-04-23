@@ -13,7 +13,8 @@
   --color-primary-light-2: #3e68bb;
   --color-secondary-dark: #319573;
   --color-secondary: #3ebb91;
-  --color-secondary-light: #61cba7; }
+  --color-secondary-light: #61cba7;
+  --box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); }
 
 * {
   margin: 0;
@@ -34,7 +35,8 @@ body {
 
 .container {
   max-width: 114rem;
-  margin: 0 auto; }
+  margin: 0 auto;
+  border: 1px solid white; }
 
 h1 {
   font-size: 7rem; }
@@ -42,22 +44,33 @@ h1 {
 h3 {
   font-size: 3rem; }
 
+ul,
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
 .header {
   color: var(--color-white);
   padding: 12rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  border: 1px solid white; }
+  align-items: center; }
   .header__image-box {
     width: 20%;
     height: 20%;
     border-radius: 50%;
     overflow: hidden;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); }
+    box-shadow: var(--box-shadow); }
   .header__image {
     display: block;
     width: 100%;
-    transform: scale(1.2); }
+    transform: scale(1.4); }
   .header__subheading {
     color: var(--color-gray-light-1); }
+
+.nav {
+  background-color: var(--color-white);
+  font-size: 2.2rem; }

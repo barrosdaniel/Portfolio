@@ -21,6 +21,8 @@ body {
 .container {
   max-width: 114rem;
   margin: 0 auto;
+  // Temp
+  border: 1px solid white;
 }
 
 h1 {
@@ -29,4 +31,14 @@ h1 {
 
 h3 {
   font-size: 3rem;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
