@@ -1,6 +1,6 @@
 .button--cta {
   transition: 0.2s;
-  background: var(--color-primary-light-2);
+  background: var(--color-primary-light-1);
   color: var(--color-white);
 
   &:link,
@@ -22,4 +22,8 @@
     transform: translateY(2px);
     box-shadow: var(--box-shadow-small);
   }
+}
+
+.aboutme .button--cta {
+  z-index: 2;
 }
