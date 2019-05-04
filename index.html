@@ -1,70 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Daniel Barros | Welcome</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400" rel="stylesheet" />
-  <link rel="stylesheet" href="css/styles.css" />
-  <title>Daniel Barros | Welcome</title>
-</head>
-
-<body>
-  <div class="container">
-    <header class="header">
-      <div class="header__image-box">
-        <img src="/img/headshot.jpg" alt="Portrait of Daniel Barros" class="header__image">
-      </div>
-      <h1 class="header__heading">Daniel Barros</h1>
-      <h3 class="header__subheading">Front-end Web Developer</h3>
-    </header>
-  </div>
-  <div class="container">
-    <main class="main">
-      <!-- Navigation -->
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__list-item">
-            <a href="#aboutme" class="nav__link">About Me</a>
-          </li>
-          <li class="nav__list-item">
-            <a href="#skills" class="nav__link">Skills</a>
-          </li>
-          <li class="nav__list-item">
-            <a href="#projects" class="nav__link">Projects</a>
-          </li>
-          <li class="nav__list-item">
-            <a href="#work-and-education" class="nav__link">Work and Education</a>
-          </li>
-          <li class="nav__list-item">
-            <a href="#contact" class="nav__link">Contact</a>
-          </li>
-        </ul>
-      </nav>
-
-      <!-- About Me Section -->
-      <section id="aboutme" class="aboutme">
-        <div class="aboutme__video">
-          <video class="aboutme__video-content" autoplay muted loop>
-            <source src="vid/Aloha-Mundo.mp4" type="video/mp4">
-            <source src="vid/Aloha-Mundo.webm" type="video/webm">
-            It seems your browser does not support this video format.
-          </video>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header__image-box">
+          <img
+            src="/img/headshot.jpg"
+            alt="Portrait of Daniel Barros"
+            class="header__image"
+          />
         </div>
-        <h2 class="section-header">About Me</h2>
-        <p class="section-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, quo deleniti vero aut
-          qui molestias quae reprehenderit, nam quia magnam labore hic laudantium facilis! Eum ducimus nobis dolores
-          fugit, error porro praesentium numquam laboriosam eaque consequuntur dolor at cumque nisi officia
-          exercitationem sed voluptas aliquam. Repellendus quod non aperiam, obcaecati neque deleniti blanditiis itaque
-          harum, maiores suscipit sint ipsum explicabo distinctio expedita at omnis officiis modi nesciunt nemo id
-          exercitationem. Nam reiciendis explicabo voluptatibus eveniet eligendi, iusto omnis quod. Tempore aliquam,
-          vero labore tempora fugiat distinctio incidunt expedita! Eaque deserunt ab esse ut quisquam sequi aut mollitia
-          optio vero modi.</p>
-        <a href="#projects" class="button--cta">See Some Projects</a>
-      </section>
-    </main>
-  </div>
-</body>
+        <h1 class="header__heading">Daniel Barros</h1>
+        <h3 class="header__subheading">Front-end Web Developer</h3>
+      </header>
+    </div>
+    <div class="container">
+      <main class="main">
+        <!-- Navigation -->
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__list-item">
+              <a href="#aboutme" class="nav__link">About Me</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#projects" class="nav__link">Projects</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#work-and-education" class="nav__link"
+                >Work and Education</a
+              >
+            </li>
+            <li class="nav__list-item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
 
+        <!-- About Me Section -->
+        <section id="aboutme" class="aboutme section-block">
+          <div class="aboutme__video">
+            <video class="aboutme__video-content" autoplay muted loop>
+              <source src="vid/Aloha-Mundo.mp4" type="video/mp4" />
+              <source src="vid/Aloha-Mundo.webm" type="video/webm" />
+              It seems your browser does not support this video format.
+            </video>
+          </div>
+          <h2 class="section-header">About Me</h2>
+          <p class="section-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+            quo deleniti vero aut qui molestias quae reprehenderit, nam quia
+            magnam labore hic laudantium facilis! Eum ducimus nobis dolores
+            fugit, error porro praesentium numquam laboriosam eaque consequuntur
+            dolor at cumque nisi officia exercitationem sed voluptas aliquam.
+            Repellendus quod non aperiam, obcaecati neque deleniti blanditiis
+            itaque harum, maiores suscipit sint ipsum explicabo distinctio
+            expedita at omnis officiis modi nesciunt nemo id exercitationem. Nam
+            reiciendis explicabo voluptatibus eveniet eligendi, iusto omnis
+            quod. Tempore aliquam, vero labore tempora fugiat distinctio
+            incidunt expedita! Eaque deserunt ab esse ut quisquam sequi aut
+            mollitia optio vero modi.
+          </p>
+          <a href="#skills" class="button--cta">See My Skills</a>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section-block">
+          <h2 class="section-header">Skills</h2>
+          <p class="section-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo
+            asperiores aperiam officia laborum incidunt placeat ipsam sapiente,
+            quaerat debitis ipsum.
+          </p>
+          <div class="skills__tiles-row">
+            <article class="skills__tile">
+              <div class="skills__tile-image">
+                Image
+              </div>
+              <h3 class="skills__tile-subheader">
+                HTML, CSS, Sass
+              </h3>
+              <ul class="skills__tile-list">
+                <li class="skills__tile-list-item">
+                  <i class="fas fa-check skills__tile-list-item-pointer"></i>
+                  Responsive Web Design
+                  <p class="skills__tile-list-item-lead"></p>
+                </li>
+                <li class="skills__tile-list-item">
+                  <i class="fas fa-check skills__tile-list-item-pointer"></i>
+                  Advanced Features
+                  <p class="skills__tile-list-item-lead">
+                    Flexbox, CSS Grid, Animations, Transforms
+                  </p>
+                </li>
+                <li class="skills__tile-list-item">
+                  <i class="fas fa-check skills__tile-list-item-pointer"></i>
+                  Libraries
+                  <p class="skills__tile-list-item-lead">
+                    Bootstrap, Materialize, Foundation
+                  </p>
+                </li>
+                <li class="skills__tile-list-item">
+                  <i class="fas fa-check skills__tile-list-item-pointer"></i>
+                  Sass CSS Pre-processor
+                  <p class="skills__tile-list-item-lead">
+                    7-1 architecture, BEM model
+                  </p>
+                </li>
+              </ul>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
 </html>
+
+skills__tile-list skills__tile-list-item skills__tile-pointer

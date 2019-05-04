@@ -25,6 +25,12 @@ body {
   margin: 0 auto;
 }
 
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
 h1 {
   font-size: 7rem;
 }
@@ -45,6 +51,7 @@ main {
 ul,
 li {
   list-style: none;
+  padding: 0;
 }
 
 a {

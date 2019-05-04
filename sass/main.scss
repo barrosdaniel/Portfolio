@@ -1,9 +1,12 @@
 @import "base/variables";
 @import "base/base";
 
-@import "components/header";
-@import "components/navigation";
-@import "components/aboutme";
+@import "components/section-block";
 @import "components/section-header";
 @import "components/section-text";
 @import "components/button--cta";
+
+@import "components/header";
+@import "components/navigation";
+@import "components/aboutme";
+@import "components/skills";
