@@ -1,308 +1,299 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Daniel Barros | Welcome</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400"
-    rel="stylesheet" />
-  <link rel="stylesheet"
-    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-    crossorigin="anonymous" />
-  <link rel="stylesheet" href="css/styles.css" />
-  <title>Daniel Barros | Welcome</title>
-</head>
-
-<body>
-  <div class="container">
-    <header class="header">
-      <div class="header__image-box">
-        <img src="/img/headshot.jpg" alt="Portrait of Daniel Barros"
-          class="header__image" />
-      </div>
-      <h1 class="header__heading">Daniel Barros</h1>
-      <h3 class="header__subheading">Front-end Web Developer</h3>
-    </header>
-  </div>
-  <div class="container">
-    <main class="main">
-      <!-- Navigation -->
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__list-item">
-            <a href="#aboutme" class="nav__link">About Me</a>
-          </li>
-          <li class="nav__list-item">
-            <a href="#skills" class="nav__link">Skills</a>
-          </li>
-          <li class="nav__list-item">
-            <a href="#projects" class="nav__link">Projects</a>
-          </li>
-          <li class="nav__list-item">
-            <a href="#work-and-education" class="nav__link">Work and
-              Education</a>
-          </li>
-          <li class="nav__list-item">
-            <a href="#contact" class="nav__link">Contact</a>
-          </li>
-        </ul>
-      </nav>
-
-      <!-- About Me Section -->
-      <section id="aboutme" class="aboutme section-block">
-        <div class="aboutme__video">
-          <video class="aboutme__video-content" autoplay muted loop>
-            <source src="vid/Aloha-Mundo.mp4" type="video/mp4" />
-            <source src="vid/Aloha-Mundo.webm" type="video/webm" />
-            It seems your browser does not support this video format.
-          </video>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header__image-box">
+          <img
+            src="/img/headshot.jpg"
+            alt="Portrait of Daniel Barros"
+            class="header__image"
+          />
         </div>
-        <h2 class="section-header">About Me</h2>
-        <p class="section-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
-          quo deleniti vero aut qui molestias quae reprehenderit, nam quia
-          magnam labore hic laudantium facilis! Eum ducimus nobis dolores
-          fugit, error porro praesentium numquam laboriosam eaque consequuntur
-          dolor at cumque nisi officia exercitationem sed voluptas aliquam.
-          Repellendus quod non aperiam, obcaecati neque deleniti blanditiis
-          itaque harum, maiores suscipit sint ipsum explicabo distinctio
-          expedita at omnis officiis modi nesciunt nemo id exercitationem. Nam
-          reiciendis explicabo voluptatibus eveniet eligendi, iusto omnis
-          quod. Tempore aliquam, vero labore tempora fugiat distinctio
-          incidunt expedita! Eaque deserunt ab esse ut quisquam sequi aut
-          mollitia optio vero modi.
-        </p>
-        <a href="#skills" class="button--cta">See My Skills</a>
-      </section>
+        <h1 class="header__heading">Daniel Barros</h1>
+        <h3 class="header__subheading">Front-end Web Developer</h3>
+      </header>
+    </div>
+    <div class="container">
+      <main class="main">
+        <!-- Navigation -->
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__list-item">
+              <a href="#aboutme" class="nav__link">About Me</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#projects" class="nav__link">Projects</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#work-and-education" class="nav__link"
+                >Work and Education</a
+              >
+            </li>
+            <li class="nav__list-item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
 
-      <!-- Skills Section -->
-      <section id="skills" class="skills section-block">
-        <h2 class="section-header">Skills</h2>
-        <p class="section-text">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo
-          asperiores aperiam officia laborum incidunt placeat ipsam sapiente,
-          quaerat debitis ipsum.
-        </p>
-        <div class="skills__tiles-row">
-          <article class="skills__tile">
-            <img src="img/html_css_sass.png" alt="HTML, CSS and Sass logos"
-              class="skills__tile-image">
-            <h3 class="skills__tile-subheader">
-              HTML, CSS, Sass
-            </h3>
-            <ul class="skills__tile-list">
-              <li class="skills__tile-list-item">
-                <i class="fas fa-check skills__tile-list-item-pointer"></i>
-                Responsive Web Design
-                <p class="skills__tile-list-item-lead"></p>
-              </li>
-              <li class="skills__tile-list-item">
-                <i class="fas fa-check skills__tile-list-item-pointer"></i>
-                Advanced Features
-                <p class="skills__tile-list-item-lead">
-                  Flexbox, CSS Grid, Animations, Transforms
-                </p>
-              </li>
-              <li class="skills__tile-list-item">
-                <i class="fas fa-check skills__tile-list-item-pointer"></i>
-                Libraries
-                <p class="skills__tile-list-item-lead">
-                  Bootstrap, Materialize, Foundation
-                </p>
-              </li>
-              <li class="skills__tile-list-item">
-                <i class="fas fa-check skills__tile-list-item-pointer"></i>
-                Sass CSS Pre-processor
-                <p class="skills__tile-list-item-lead">
-                  7-1 architecture, BEM model
-                </p>
-              </li>
-            </ul>
-          </article>
-          <article class="skills__tile">
-            <img src="img/javascript.png" alt="JavaScript logo"
-              class="skills__tile-image">
-            <h3 class="skills__tile-subheader">
-              JavaScript
-            </h3>
-            <ul class="skills__tile-list">
-              <li class="skills__tile-list-item">
-                <i class="fas fa-check skills__tile-list-item-pointer"></i>
-                ES6
-                <p class="skills__tile-list-item-lead">
-                  Babel, OOP, AJAX, JSON
-                </p>
-              </li>
-              <li class="skills__tile-list-item">
-                <i class="fas fa-check skills__tile-list-item-pointer"></i>
-                Package Managers
-                <p class="skills__tile-list-item-lead">
-                  npm, yarn
-                </p>
-              </li>
-              <li class="skills__tile-list-item">
-                <i class="fas fa-check skills__tile-list-item-pointer"></i>
-                Libraries
-                <p class="skills__tile-list-item-lead">jQuery, WaypointJS</p>
-              </li>
-              <li class="skills__tile-list-item">
-                <i class="fas fa-check skills__tile-list-item-pointer"></i>
-                Server side
-                <p class="skills__tile-list-item-lead">
-                  Node.js
-                </p>
-              </li>
+        <!-- About Me Section -->
+        <section id="aboutme" class="aboutme section-block">
+          <div class="aboutme__video">
+            <video class="aboutme__video-content" autoplay muted loop>
+              <source src="vid/Aloha-Mundo.mp4" type="video/mp4" />
+              <source src="vid/Aloha-Mundo.webm" type="video/webm" />
+              It seems your browser does not support this video format.
+            </video>
+          </div>
+          <h2 class="section-header">About Me</h2>
+          <p class="section-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+            quo deleniti vero aut qui molestias quae reprehenderit, nam quia
+            magnam labore hic laudantium facilis! Eum ducimus nobis dolores
+            fugit, error porro praesentium numquam laboriosam eaque consequuntur
+            dolor at cumque nisi officia exercitationem sed voluptas aliquam.
+            Repellendus quod non aperiam, obcaecati neque deleniti blanditiis
+            itaque harum, maiores suscipit sint ipsum explicabo distinctio
+            expedita at omnis officiis modi nesciunt nemo id exercitationem. Nam
+            reiciendis explicabo voluptatibus eveniet eligendi, iusto omnis
+            quod. Tempore aliquam, vero labore tempora fugiat distinctio
+            incidunt expedita! Eaque deserunt ab esse ut quisquam sequi aut
+            mollitia optio vero modi.
+          </p>
+          <a href="#skills" class="button--cta">See My Skills</a>
+        </section>
 
-            </ul>
-          </article>
-          <article class="skills__tile">
-            <img src="img/html_css_sass.png" alt="HTML, CSS and Sass logos"
-              class="skills__tile-image">
-            <h3 class="skills__tile-subheader">
-              HTML, CSS, Sass
-            </h3>
-            <ul class="skills__tile-list">
-              <li class="skills__tile-list-item">
-                <i class="fas fa-check skills__tile-list-item-pointer"></i>
-                Responsive Web Design
-                <p class="skills__tile-list-item-lead"></p>
-              </li>
-              <li class="skills__tile-list-item">
-                <i class="fas fa-check skills__tile-list-item-pointer"></i>
-                Advanced Features
-                <p class="skills__tile-list-item-lead">
-                  Flexbox, CSS Grid, Animations, Transforms
-                </p>
-              </li>
-              <li class="skills__tile-list-item">
-                <i class="fas fa-check skills__tile-list-item-pointer"></i>
-                Libraries
-                <p class="skills__tile-list-item-lead">
-                  Bootstrap, Materialize, Foundation
-                </p>
-              </li>
-              <li class="skills__tile-list-item">
-                <i class="fas fa-check skills__tile-list-item-pointer"></i>
-                Sass CSS Pre-processor
-                <p class="skills__tile-list-item-lead">
-                  7-1 architecture, BEM model
-                </p>
-              </li>
-            </ul>
-          </article>
-          <article class="skills__tile">
-            <img src="img/html_css_sass.png" alt="HTML, CSS and Sass logos"
-              class="skills__tile-image">
-            <h3 class="skills__tile-subheader">
-              HTML, CSS, Sass
-            </h3>
-            <ul class="skills__tile-list">
-              <li class="skills__tile-list-item">
-                <i class="fas fa-check skills__tile-list-item-pointer"></i>
-                Responsive Web Design
-                <p class="skills__tile-list-item-lead"></p>
-              </li>
-              <li class="skills__tile-list-item">
-                <i class="fas fa-check skills__tile-list-item-pointer"></i>
-                Advanced Features
-                <p class="skills__tile-list-item-lead">
-                  Flexbox, CSS Grid, Animations, Transforms
-                </p>
-              </li>
-              <li class="skills__tile-list-item">
-                <i class="fas fa-check skills__tile-list-item-pointer"></i>
-                Libraries
-                <p class="skills__tile-list-item-lead">
-                  Bootstrap, Materialize, Foundation
-                </p>
-              </li>
-              <li class="skills__tile-list-item">
-                <i class="fas fa-check skills__tile-list-item-pointer"></i>
-                Sass CSS Pre-processor
-                <p class="skills__tile-list-item-lead">
-                  7-1 architecture, BEM model
-                </p>
-              </li>
-            </ul>
-          </article>
-          <article class="skills__tile">
-            <img src="img/html_css_sass.png" alt="HTML, CSS and Sass logos"
-              class="skills__tile-image">
-            <h3 class="skills__tile-subheader">
-              HTML, CSS, Sass
-            </h3>
-            <ul class="skills__tile-list">
-              <li class="skills__tile-list-item">
-                <i class="fas fa-check skills__tile-list-item-pointer"></i>
-                Responsive Web Design
-                <p class="skills__tile-list-item-lead"></p>
-              </li>
-              <li class="skills__tile-list-item">
-                <i class="fas fa-check skills__tile-list-item-pointer"></i>
-                Advanced Features
-                <p class="skills__tile-list-item-lead">
-                  Flexbox, CSS Grid, Animations, Transforms
-                </p>
-              </li>
-              <li class="skills__tile-list-item">
-                <i class="fas fa-check skills__tile-list-item-pointer"></i>
-                Libraries
-                <p class="skills__tile-list-item-lead">
-                  Bootstrap, Materialize, Foundation
-                </p>
-              </li>
-              <li class="skills__tile-list-item">
-                <i class="fas fa-check skills__tile-list-item-pointer"></i>
-                Sass CSS Pre-processor
-                <p class="skills__tile-list-item-lead">
-                  7-1 architecture, BEM model
-                </p>
-              </li>
-            </ul>
-          </article>
-          <article class="skills__tile">
-            <img src="img/html_css_sass.png" alt="HTML, CSS and Sass logos"
-              class="skills__tile-image">
-            <h3 class="skills__tile-subheader">
-              HTML, CSS, Sass
-            </h3>
-            <ul class="skills__tile-list">
-              <li class="skills__tile-list-item">
-                <i class="fas fa-check skills__tile-list-item-pointer"></i>
-                Responsive Web Design
-                <p class="skills__tile-list-item-lead"></p>
-              </li>
-              <li class="skills__tile-list-item">
-                <i class="fas fa-check skills__tile-list-item-pointer"></i>
-                Advanced Features
-                <p class="skills__tile-list-item-lead">
-                  Flexbox, CSS Grid, Animations, Transforms
-                </p>
-              </li>
-              <li class="skills__tile-list-item">
-                <i class="fas fa-check skills__tile-list-item-pointer"></i>
-                Libraries
-                <p class="skills__tile-list-item-lead">
-                  Bootstrap, Materialize, Foundation
-                </p>
-              </li>
-              <li class="skills__tile-list-item">
-                <i class="fas fa-check skills__tile-list-item-pointer"></i>
-                Sass CSS Pre-processor
-                <p class="skills__tile-list-item-lead">
-                  7-1 architecture, BEM model
-                </p>
-              </li>
-            </ul>
-          </article>
-        </div>
-      </section>
-    </main>
-  </div>
-</body>
-
+        <!-- Skills Section -->
+        <section id="skills" class="skills section-block">
+          <h2 class="section-header">Skills</h2>
+          <p class="section-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo
+            asperiores aperiam officia laborum incidunt placeat ipsam sapiente,
+            quaerat debitis ipsum.
+          </p>
+          <div class="skills__tiles-row">
+            <article class="skills__tile">
+              <img
+                src="img/html_css_sass.png"
+                alt="HTML, CSS and Sass logos"
+                class="skills__tile-image"
+              />
+              <h3 class="skills__tile-subheader">
+                HTML, CSS, Sass
+              </h3>
+              <ul class="skills__tile-list">
+                <li class="skills__tile-list-item">
+                  <i class="fas fa-check skills__tile-list-item-pointer"></i>
+                  Responsive Web Design
+                  <p class="skills__tile-list-item-lead"></p>
+                </li>
+                <li class="skills__tile-list-item">
+                  <i class="fas fa-check skills__tile-list-item-pointer"></i>
+                  Advanced Features
+                  <p class="skills__tile-list-item-lead">
+                    Flexbox, CSS Grid, Animations, Transforms
+                  </p>
+                </li>
+                <li class="skills__tile-list-item">
+                  <i class="fas fa-check skills__tile-list-item-pointer"></i>
+                  Libraries
+                  <p class="skills__tile-list-item-lead">
+                    Bootstrap, Materialize, Foundation
+                  </p>
+                </li>
+                <li class="skills__tile-list-item">
+                  <i class="fas fa-check skills__tile-list-item-pointer"></i>
+                  Sass CSS Pre-processor
+                  <p class="skills__tile-list-item-lead">
+                    7-1 architecture, BEM model
+                  </p>
+                </li>
+              </ul>
+            </article>
+            <article class="skills__tile">
+              <img
+                src="img/javascript.png"
+                alt="JavaScript logo"
+                class="skills__tile-image"
+              />
+              <h3 class="skills__tile-subheader">
+                JavaScript
+              </h3>
+              <ul class="skills__tile-list">
+                <li class="skills__tile-list-item">
+                  <i class="fas fa-check skills__tile-list-item-pointer"></i>
+                  ES6
+                  <p class="skills__tile-list-item-lead">
+                    Babel, OOP, AJAX, JSON
+                  </p>
+                </li>
+                <li class="skills__tile-list-item">
+                  <i class="fas fa-check skills__tile-list-item-pointer"></i>
+                  Package Managers
+                  <p class="skills__tile-list-item-lead">
+                    npm, yarn
+                  </p>
+                </li>
+                <li class="skills__tile-list-item">
+                  <i class="fas fa-check skills__tile-list-item-pointer"></i>
+                  Libraries
+                  <p class="skills__tile-list-item-lead">jQuery, WaypointJS</p>
+                </li>
+                <li class="skills__tile-list-item">
+                  <i class="fas fa-check skills__tile-list-item-pointer"></i>
+                  Server side
+                  <p class="skills__tile-list-item-lead">
+                    Node.js
+                  </p>
+                </li>
+              </ul>
+            </article>
+            <article class="skills__tile">
+              <img
+                src="img//git_github.png"
+                alt="HTML, CSS and Sass logos"
+                class="skills__tile-image"
+              />
+              <h3 class="skills__tile-subheader">
+                Version Control
+              </h3>
+              <ul class="skills__tile-list">
+                <li class="skills__tile-list-item">
+                  <i class="fas fa-check skills__tile-list-item-pointer"></i>
+                  Git
+                </li>
+                <li class="skills__tile-list-item">
+                  <i class="fas fa-check skills__tile-list-item-pointer"></i>
+                  Github
+                  <p class="skills__tile-list-item-lead">
+                    500+ contributions, 50+ projects
+                  </p>
+                </li>
+              </ul>
+            </article>
+            <article class="skills__tile">
+              <img
+                src="img/deployment.png"
+                alt="HTML, CSS and Sass logos"
+                class="skills__tile-image"
+              />
+              <h3 class="skills__tile-subheader">
+                Web Deployment
+              </h3>
+              <ul class="skills__tile-list">
+                <li class="skills__tile-list-item">
+                  <i class="fas fa-check skills__tile-list-item-pointer"></i>
+                  Github Pages
+                  <p class="skills__tile-list-item-lead">
+                    Automated deployment scripts
+                  </p>
+                </li>
+                <li class="skills__tile-list-item">
+                  <i class="fas fa-check skills__tile-list-item-pointer"></i>
+                  cPanel
+                  <p class="skills__tile-list-item-lead">
+                    Shared hosting
+                  </p>
+                </li>
+              </ul>
+            </article>
+            <article class="skills__tile">
+              <img
+                src="img/collaboration.png"
+                alt="HTML, CSS and Sass logos"
+                class="skills__tile-image"
+              />
+              <h3 class="skills__tile-subheader">
+                Communication & Collaboration
+              </h3>
+              <ul class="skills__tile-list">
+                <li class="skills__tile-list-item">
+                  <i class="fas fa-check skills__tile-list-item-pointer"></i>
+                  Client relationship
+                  <p class="skills__tile-list-item-lead"></p>
+                </li>
+                <li class="skills__tile-list-item">
+                  <i class="fas fa-check skills__tile-list-item-pointer"></i>
+                  Account management
+                  <p class="skills__tile-list-item-lead"></p>
+                </li>
+                <li class="skills__tile-list-item">
+                  <i class="fas fa-check skills__tile-list-item-pointer"></i>
+                  Marketing background
+                  <p class="skills__tile-list-item-lead"></p>
+                </li>
+                <li class="skills__tile-list-item">
+                  <i class="fas fa-check skills__tile-list-item-pointer"></i>
+                  Project management
+                  <p class="skills__tile-list-item-lead"></p>
+                </li>
+                <li class="skills__tile-list-item">
+                  <i class="fas fa-check skills__tile-list-item-pointer"></i>
+                  Training delivery
+                  <p class="skills__tile-list-item-lead"></p>
+                </li>
+                <li class="skills__tile-list-item">
+                  <i class="fas fa-check skills__tile-list-item-pointer"></i>
+                  Leadership skills
+                  <p class="skills__tile-list-item-lead"></p>
+                </li>
+              </ul>
+            </article>
+            <article class="skills__tile">
+              <img
+                src="img/problem-solving.png"
+                alt="HTML, CSS and Sass logos"
+                class="skills__tile-image"
+              />
+              <h3 class="skills__tile-subheader">
+                Problem-solving
+              </h3>
+              <ul class="skills__tile-list">
+                <li class="skills__tile-list-item">
+                  <i class="fas fa-check skills__tile-list-item-pointer"></i>
+                  Analytical skills
+                  <p class="skills__tile-list-item-lead"></p>
+                </li>
+                <li class="skills__tile-list-item">
+                  <i class="fas fa-check skills__tile-list-item-pointer"></i>
+                  Research
+                  <p class="skills__tile-list-item-lead">
+                    Quantitative and qualitative methods
+                  </p>
+                </li>
+                <li class="skills__tile-list-item">
+                  <i class="fas fa-check skills__tile-list-item-pointer"></i>
+                  Lifelong learning
+                  <p class="skills__tile-list-item-lead"></p>
+                </li>
+              </ul>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
 </html>
 
 skills__tile-list skills__tile-list-item skills__tile-pointer
